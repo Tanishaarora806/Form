@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header> Registration form  </header>
+    <br>
+    <form action="/action.php">
+ <input type="text" placeholder="Your Name">
+ <br>
+ <input type="text" placeholder="Surname">
+ <br/>
+ <input type="text" placeholder="Email Id">
+ <br>
+ <input type="password" placeholder="Email password">
+ <br/>
+ <br/>
+ <big> Choose your class </big>
+ <br> <br> 
+ <label>  <input  type="radio" value="class XI" name="class"> Class XI </label>
+ <br>
+ <label> <input type="radio" value="class XII" name="class"> Class XII </label>
+ <br/>
+ <br/>
+ <big> Select your age </big>
+ <br/> <br>
+ <label for="101"> <input  type="radio" value="Age Eighteen" name="age" id="101"> Above 18 </label>
+ <br>
+ <label for="102"> <input type="radio" value="Age eighteen" name="age" id="102"> Below 18 </label>
+  <form action="/action.php">
+    <br/> <br> 
+  <big> Fill your subjects </big>
+  <br> <br>
+
+    <label for="maths">
+        <input type="checkbox" value="maths" name="subject" id="101">Math
+        <br>
+        <input type="checkbox" value="Science" name="subject" id="102">Science
+        <br>
+        <input type="checkbox" value="English" name="subject" id="103">English    </label>
+<!-- checkbox is used for choosing multiple options at once  -->
+<!-- radio is used for choosing bullet points only one at a time  -->
+<!-- label tag is added so that the option can be ticked on clicking the word -->
+</label>
+<br> <br>
+<big> Choose your city </big>
+
+<select name = city > 
+  <option value=" Delhi">Delhi</option>
+  <option value=" Banglore "> Banglore </option>
+  <option value=" Gurgaon " > Gurgaon </option>
+  <Option value="Uttarpradesh"> Uttarpradesh </Option>        
+</select>
+<!-- select tag is used to create drop downs -->
+<br> <br>
+<textarea name="feedback"   id="101" placeholder="Please give your valueable feedback here" rows="5" ></textarea>
+<!-- textarea is used to create feedback block -->
+<!-- to create a drop down options we use select tag -->
+<br>
+<input type="submit" value="submit">
+<!-- iframe tag is used to create website inside wesbite -->
+<!-- See level third code for ref -->
+
+</form>
+    
+
+
+</body>
+</html>
